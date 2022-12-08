@@ -1,1 +1,1 @@
-very simple C
+Simple 1-compiler
