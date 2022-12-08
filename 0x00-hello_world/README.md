@@ -1,1 +1,1 @@
-Simple 1-compiler
+Simple
