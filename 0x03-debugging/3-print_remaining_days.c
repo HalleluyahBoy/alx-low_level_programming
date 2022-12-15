@@ -3,8 +3,9 @@
 
 /**
  * print_remaining_days - takes a date and prints how many days are
- * lleft in the year into account
+ * left in the year into account
  * @month: month in number format
+ * @day: day of the month
  * @year: year
  * Return: void
  */
