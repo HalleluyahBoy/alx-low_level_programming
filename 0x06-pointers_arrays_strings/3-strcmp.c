@@ -1,4 +1,6 @@
 #include "main.h"
+#include <stdlib.h>
+#include <stdio.h>
 
 /**
  * _strcmp - Compares poiners to two strings.
@@ -12,8 +14,8 @@ int _strcmp(char *s1, char *s2)
 {
 	while (*s1 && *s2 && *s1 == *s2)
 	{
-		*s1++;
-		*s2++;
+		s1++;
+		s2++;
 	}
 	return (*s1 - *s2);
 }
