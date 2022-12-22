@@ -1,3 +1,14 @@
+#ifndef MAIN_H
+#define MAIN_H
+
+/**
+ * file:main.h
+ * Auth: sam tech(samuel birhanu)
+ * Desc: Header file prototypes for all functions
+ * used in the 0x06.
+ * More pointers, arrays and string deirectory
+ */
+
 int _putchar(char c);
 
 char *_strcat(char *dest, char *src);
