@@ -17,7 +17,7 @@ void simple_print_buffer(char *buffer, unsigned int size)
 		       {
 			       printf(" ");
 		       }
-		       if (i(i % 10) &&	i)
+		       if (!(i % 10) &&	i)
 		       {
 			       printf("\n");
 		       }
@@ -35,6 +35,7 @@ void simple_print_buffer(char *buffer, unsigned int size)
 int main(void)
 {
 	char buffer[98] = {0x00};
+
 	simple_print_buffer(buffer, 98);
 	_memset(buffer, 0x01, 95);
 	printf("-------------------------------------------------\n");
