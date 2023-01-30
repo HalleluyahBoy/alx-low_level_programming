@@ -1,1 +1,1 @@
-0x13-more_singly_linked_lists
+prev->next = nxt->next;
